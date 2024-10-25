@@ -13,7 +13,7 @@ If found it sends current price data to an IPC socket.
 #### Dev
 ---
 
-Install [CARGO-WATCH] if not installed, enables `cargo watch` command.
+Install [cargo-watch] if not installed, enables `cargo watch` command.
 
 **run `consumer`**
 ```
@@ -26,6 +26,6 @@ cargo watch -x 'run -p discovery'
 ```
 
 
-[CARGO-WATCH](https://github.com/watchexec/cargo-watch)
+[cargo-watch]: https://github.com/watchexec/cargo-watch
 
 
