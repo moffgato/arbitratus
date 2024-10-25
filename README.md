@@ -4,9 +4,10 @@
 
 ![terminal_spit](./docs/img/arbi.png)
 
-`discovery` package "discovers" prices and detects arbitrage opportunities.   
-If found it sends current price data to a normal unix IPC socket.  
+`discovery` package "discovers" prices and detects arbitrage opportunities on crypto exchanges.   
+If found it sends current price data to an IPC socket.  
 `consumer` listens to the IPC socket and consumes messages.  
+
 
 
 #### Dev
