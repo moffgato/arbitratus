@@ -2,7 +2,11 @@
 resolver = "2"
 
 members = [
-    "discovery/",
+    "discovery",
     "consumer",
+    "shared",
 ]
+
+[workspace.dependencies]
+shared = { path = "./shared" }
 

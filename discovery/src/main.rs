@@ -1,5 +1,3 @@
-mod logger;
-
 use {
     futures_util::{
         SinkExt,
@@ -20,8 +18,9 @@ use {
         connect_async,
         tungstenite::protocol::Message,
     },
-    logger::setup_logger,
+    shared::setup_logger,
 };
+
 
 const IPC_SOCKET_PATH: &'static str = "/tmp/arbitrage_ipc.sock";
 const BINANCE_WS_URL: &str = "wss://stream.binance.com:443";

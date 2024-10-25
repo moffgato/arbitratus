@@ -1,5 +1,3 @@
-mod logger;
-
 use {
     tokio::{
         net::UnixListener,
@@ -8,7 +6,7 @@ use {
     },
     log::{info, error},
     std::path::Path,
-    logger::setup_logger,
+    shared::setup_logger,
     serde_json::Value,
 };
 
